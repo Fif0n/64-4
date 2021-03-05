@@ -85,10 +85,6 @@ void picture::clearVector() {
     picture.clear();
 }
 
-void picture::showResults() {
-    
-}
-
 int main() {
     file f;
     picture p;
