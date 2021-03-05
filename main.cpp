@@ -67,13 +67,13 @@ void picture::checkPicture() {
     
     if ((badX == 1 && badY == 1)) {
         cout << "Obrazek nr: " << whichPicture << endl;
-        cout << "Wspolzedne: " << y + 1 << ", " << x + 1 << endl;
+        cout << "Wspolrzedne: " << y + 1 << ", " << x + 1 << endl;
     } else if ((badX == 0 && badY == 1)) {
         cout << "Obrazek nr: " << whichPicture << endl;
-        cout << "Wspolzedne: " << "21" << ", " << x + 1 << endl;
+        cout << "Wspolrzedne: " << "21" << ", " << x + 1 << endl;
     } else if ((badX == 1 && badY == 0)) {
         cout << "Obrazek nr: " << whichPicture << endl;
-        cout << "Wspolzedne: " << y+1 << ", " << "21" << endl;
+        cout << "Wspolrzedne: " << y+1 << ", " << "21" << endl;
     }
     
     badX = 0;
